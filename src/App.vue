@@ -6,7 +6,7 @@
     <el-container>
       <el-header>Header</el-header>
       <el-container>
-        <el-aside width="200px">Aside</el-aside>
+        <el-aside width="200px" style="background-color: coral">Aside</el-aside>
         <el-main>Main</el-main>
       </el-container>
     </el-container>
@@ -14,17 +14,17 @@
 </template>
 
 <script>
-import Header from "./components/Header.vue";
+import Header from './components/Header.vue';
 
 export default {
-  name: "app",
+  name: 'app',
   components: {
-    Header
+    Header,
   },
   data() {
     return {};
   },
-  methods: {}
+  methods: {},
 };
 </script>
 
